@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Joplin Server</title>
+  <desc id="desc">A minimalist Joplin-style feather pen over a blue note.</desc>
+  <defs>
+    <linearGradient id="note" x1="18" y1="12" x2="110" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#25a6ef"/>
+      <stop offset="1" stop-color="#0b65c2"/>
+    </linearGradient>
+    <linearGradient id="feather" x1="40" y1="86" x2="94" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff4ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="14" width="92" height="100" rx="16" fill="url(#note)"/>
+  <path d="M88 14v25c0 5 4 9 9 9h13" fill="#7fd3ff" opacity=".65"/>
+  <path d="M47 90c3-22 13-39 31-53 8-6 18-9 29-9-1 12-5 23-13 33C81 78 66 88 47 90Z" fill="url(#feather)"/>
+  <path d="M47 90c13-17 28-31 46-43" fill="none" stroke="#0b65c2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M58 80 42 96M73 68l-16 2M84 56l-18 3M93 44l-17 4" fill="none" stroke="#0b65c2" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+  <circle cx="42" cy="96" r="5" fill="#ffffff"/>
+</svg>
