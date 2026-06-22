@@ -11,8 +11,8 @@ Joplin desktop and mobile apps.
 ## What you get on StartOS
 
 - A **Joplin Server API** interface on port 22300 — the web admin UI and the sync endpoint used by Joplin clients.
-- SQLite storage by default, persisted in the `main` volume at `/home/joplin`.
-- Filesystem item storage at `/home/joplin/items`, also persisted in the `main` volume.
+- SQLite storage by default, persisted in the `main` volume at `/home/joplin/data`.
+- Filesystem item storage at `/home/joplin/data/items`, also persisted in the `main` volume.
 
 ## Getting set up
 

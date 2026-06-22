@@ -5,7 +5,7 @@ import { i18n } from './i18n'
 export const main = sdk.setupMain(async ({ effects }) => {
   console.info(i18n('Starting Joplin Server!'))
 
-  const mountpoint = '/home/joplin'
+  const mountpoint = '/home/joplin/data'
 
   return sdk.Daemons.of(effects).addDaemon('primary', {
     subcontainer: await sdk.SubContainer.of(
