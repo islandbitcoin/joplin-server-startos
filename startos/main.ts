@@ -28,6 +28,7 @@ export const main = sdk.setupMain(async ({ effects }) => {
         SQLITE_DATABASE: `${mountpoint}/joplin.sqlite`,
         STORAGE_DRIVER: `Type=Filesystem; Path=${mountpoint}/items`,
         NODE_ENV: 'production',
+        MAX_TIME_DRIFT: '0',
       },
     },
     ready: {
