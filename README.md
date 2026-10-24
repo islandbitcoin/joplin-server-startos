@@ -111,7 +111,7 @@ None. Administration is handled in the Joplin Server web interface.
 
 **Included in backup:**
 
-- `main` volume — SQLite database, item storage, users, notes, sync state, and
+- `main` volume: SQLite database, item storage, users, notes, sync state, and
   server data
 
 **Restore behavior:**
@@ -138,12 +138,12 @@ another StartOS service.
 
 ## Limitations and Differences
 
-1. **SQLite-first** — suitable for simple self-hosted setups; PostgreSQL is not
+1. **SQLite-first**: suitable for simple self-hosted setups; PostgreSQL is not
    exposed as a package dependency or configuration option yet.
-2. **Static app base URL** — `APP_BASE_URL` is set to `http://localhost:22300`
+2. **Static app base URL**: `APP_BASE_URL` is set to `http://localhost:22300`
    because StartOS interface URLs are assigned by the platform.
-3. **No email setup** — SMTP variables are not configured by default.
-4. **No Transcribe service** — this package runs only Joplin Server.
+3. **No email setup**: SMTP variables are not configured by default.
+4. **No Transcribe service**: this package runs only Joplin Server.
 
 ---
 
