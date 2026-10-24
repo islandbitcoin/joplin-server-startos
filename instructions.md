@@ -5,12 +5,12 @@ Joplin desktop and mobile apps.
 
 ## Documentation
 
-- [Joplin Server docs](https://github.com/laurent22/joplin/tree/dev/packages/server) — upstream installation and operating notes.
-- [Joplin sync docs](https://joplinapp.org/help/apps/sync/joplin_server/) — configuring Joplin clients to use Joplin Server.
+- [Joplin Server docs](https://github.com/laurent22/joplin/tree/dev/packages/server): upstream installation and operating notes.
+- [Joplin sync docs](https://joplinapp.org/help/apps/sync/joplin_server/): configuring Joplin clients to use Joplin Server.
 
 ## What you get on StartOS
 
-- A **Joplin Server API** interface on port 22300 — the web admin UI and the sync endpoint used by Joplin clients.
+- A **Joplin Server API** interface on port 22300: the web admin UI and the sync endpoint used by Joplin clients.
 - SQLite storage by default, persisted in the `main` volume at `/home/joplin/data`.
 - Filesystem item storage at `/home/joplin/data/items`, also persisted in the `main` volume.
 
